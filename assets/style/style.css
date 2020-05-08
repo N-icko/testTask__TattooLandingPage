@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&family=Raleway&display=swap");
+a {
+  text-decoration: none;
+  color: #F6F6F6;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.heroscreen-container {
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(269.85deg, rgba(33, 8, 8, 0.9) 21.28%, rgba(58, 58, 58, 0.27) 96.11%), url("../images/hero-screen_bg.png") center/cover no-repeat;
+}
+.heroscreen-container .heroscreen_nav {
+  border-bottom: 1px solid #89898B;
+}
+.heroscreen-container .heroscreen_nav .nav-menu {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  justify-content: space-between;
+}
+.heroscreen-container .heroscreen_nav .nav-menu .nav-item .nav-link {
+  color: #F6F6F6;
+}
+.heroscreen-container .heroscreen_nav .nav-menu .nav-item .nav-link:hover {
+  color: #FD0000;
+}
+.heroscreen-container .heroscreen-logo {
+  margin: 15px auto;
+}
+.heroscreen-container .heroscreen-title {
+  font-family: "Playfair Display SC", serif;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #F6F6F6;
+  margin: 30px 0;
+}
+.heroscreen-container .heroscreen-button {
+  width: 180px;
+  height: 48px;
+  line-height: 44px;
+  border: 2px solid #CECECE;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  margin: 15px auto;
+  text-transform: uppercase;
+}
+.heroscreen-container .heroscreen-button:hover {
+  color: #FD0000;
+  border: 2px solid #FD0000;
+  text-decoration: none;
+}
+
+.artists {
+  background-color: #151715;
+  padding: 40px;
+}
+.artists .artists-container .artists-header {
+  justify-content: center;
+}
+.artists .artists-container .artists-header .artists-title {
+  font-family: "Playfair Display SC", serif;
+  font-size: 61px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #89898B;
+}
+.artists .artists-container .artists-cards {
+  justify-content: space-around;
+}
+.artists .artists-container .artists-cards .artists-item {
+  background-color: #151715 !important;
+  border: none;
+  max-width: 255px;
+  margin: 15px 0;
+}
+.artists .artists-container .artists-cards .artists-item a .card-img-top {
+  max-height: 360px;
+}
+.artists .artists-container .artists-cards .artists-item .card-body {
+  padding: 0 0;
+  justify-content: space-between;
+}
+.artists .artists-container .artists-cards .artists-item .card-body .artists-name {
+  font-family: "Playfair Display SC", serif;
+  font-size: 22px;
+  letter-spacing: 0.01em;
+  color: #F6F6F6;
+  text-transform: uppercase;
+}
+.artists .artists-container .artists-cards .artists-item .card-body .read-more {
+  color: #F6F6F6;
+  margin: 0 2px;
+  align-self: flex-end;
+}
+.artists .artists-container .artists-cards .artists-item .card-body .read-more:hover {
+  color: #FD0000;
+}
+
+.about {
+  height: 410px;
+  background: url("../images/about-bg.png") center/cover no-repeat;
+  position: relative;
+}
+.about .about-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.about .about-container .row {
+  justify-content: space-around;
+}
+.about .about-container .row .about-item {
+  max-width: 360px;
+}
+.about .about-container .row .about-item .item-img {
+  margin-right: 10px;
+}
+.about .about-container .row .about-item .about-item_text .about-item_title {
+  font-family: "Playfair Display SC", serif;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+.about .about-container .row .about-item .about-item_text .about-item_content {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  margin-bottom: 0;
+}
+.about .about-container .row .about-item .about-item_text .about-item_link {
+  color: #FD0000;
+  margin-bottom: 0;
+}
+
+.featured {
+  background-color: #151715;
+  padding: 40px;
+}
+.featured .featured-container .featured-title {
+  justify-content: space-between;
+}
+.featured .featured-container .featured-title .title {
+  font-family: "Playfair Display SC", serif;
+  font-size: 61px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #89898B;
+}
+.featured .featured-container .featured-title .learn-more {
+  align-self: center;
+}
+.featured .featured-container .featured-title .learn-more a:hover {
+  color: #FD0000;
+}
+.featured .featured-container .featured-sub {
+  font-family: "Playfair Display SC", serif;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #F6F6F6;
+}
+.featured .featured-img {
+  justify-content: space-between;
+  align-self: center;
+}
+.featured .featured-img .img-down {
+  align-self: flex-end;
+}
+
+.about-us {
+  background: url("../images/about-us_bg.png");
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+}
+.about-us .container .row .about-us__text .about-us__title {
+  font-family: "Playfair Display SC", serif;
+  font-size: 61px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #89898B;
+  text-align: center;
+}
+.about-us .container .row .about-us__text .about-us__content {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.01em;
+}
+.about-us .container .row .about-us__img-block {
+  position: relative;
+}
+.about-us .container .row .about-us__img-block img {
+  position: absolute;
+  top: -55px;
+}
+
+.collective {
+  background-color: #151715;
+  padding: 40px;
+}
+
+@media (min-width: 992px) {
+  .featured > .featured-container > .featured-sub {
+    position: absolute;
+  }
+}
+@media (max-width: 992px) {
+  h2 {
+    font-size: 48px !important;
+    text-align: center;
+  }
+
+  .featured > .featured-container > .featured-img {
+    padding-top: 15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

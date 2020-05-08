@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&family=Raleway&display=swap');
+
+@mixin playfairFont($fontSize) {
+  font-family: 'Playfair Display SC', serif;
+  font-size: $fontSize;
+  letter-spacing: 0.01em;
+}
+
+@mixin ralewayFont($fontSize) {
+  font-family: 'Raleway', sans-serif;
+  font-size: $fontSize;
+  letter-spacing: 0.01em;
+}
+
